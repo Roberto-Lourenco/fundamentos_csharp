@@ -10,7 +10,7 @@ Calculo com_referencia = new Calculo();
 com_referencia.DobrarValorComRef(ref j);
 Console.WriteLine($"Valor da variavel j depois de passar pela função com ref: {j}");
 
-public class Calculo()
+public class Calculo
 {
     public void DobrarValorComRef(ref int y)
     {
