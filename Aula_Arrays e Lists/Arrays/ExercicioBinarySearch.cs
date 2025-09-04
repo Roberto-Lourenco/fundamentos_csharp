@@ -21,8 +21,8 @@ namespace ClasseArray
                         "======================================================================================="
                         );
                     MensagensConsole.normalMsg("\nMenu Interativo\n");
-                    MensagensConsole.normalMsg("1 - Digite '1' para buscar por um numero.");
-                    MensagensConsole.normalMsg("2 - Digite '2' para buscar por um nome.");
+                    MensagensConsole.normalMsg("1 - Digite '1' para buscar na lista de numeros.");
+                    MensagensConsole.normalMsg("2 - Digite '2' para buscar na lista de nomes.");
                     MensagensConsole.normalMsg("3 - Digite '3' para encerrar.");
                 }
 
@@ -124,7 +124,6 @@ namespace ClasseArray
             else
             {
                 MensagensConsole.normalMsg($"Não encontrei o número {numeroConvertido} na lista.\n");
-                MensagensConsole.normalMsg($"Numeros no array: {string.Join(", ", lista)}");
             }
         }
     }

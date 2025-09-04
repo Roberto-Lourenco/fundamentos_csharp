@@ -1,5 +1,4 @@
-﻿using System;
-using MsgConsole;
+﻿using MsgConsole;
 namespace ArrayComFor
 {
 
@@ -11,16 +10,17 @@ namespace ArrayComFor
         public void converterArray()
         {
 
-            if (this.arrayInt == null) {
+            if (this.arrayInt == null)
+            {
                 MensagensConsole.errorMsg("O array está vazio");
                 return;
             }
 
-            string arrayAntigo = string.Join(",",this.arrayInt);
+            string arrayAntigo = string.Join(",", this.arrayInt);
 
             for (int i = 0; i < this.arrayInt.Length; i++)
             {
-                this.arrayInt[i] = this.arrayInt[i]+1;
+                this.arrayInt[i] = this.arrayInt[i] + 1;
             }
 
             string tipo_atual_do_array = "";
@@ -28,7 +28,7 @@ namespace ArrayComFor
             if (this.arrayInt[0] % 2 == 0) { tipo_atual_do_array = "Par "; }
             if (this.arrayInt[0] % 2 != 0) { tipo_atual_do_array = "Impar"; }
 
-            MensagensConsole.sucessMsg($"Array ({arrayAntigo}) Convertido para {tipo_atual_do_array}: {string.Join(',',this.arrayInt)}");
+            MensagensConsole.sucessMsg($"Array ({arrayAntigo}) Convertido para {tipo_atual_do_array}: {string.Join(',', this.arrayInt)}");
         }
 
         public void gerarNumerosImpares()
@@ -39,7 +39,7 @@ namespace ArrayComFor
             while (index < 3)
             {
                 int numeroAleatorio = random.Next(1, 100);
-                if (numeroAleatorio % 2 != 0)
+                if (!impares.Contains(numeroAleatorio) && numeroAleatorio % 2 != 0)
                 {
                     impares[index] = numeroAleatorio;
                     index++;
@@ -58,12 +58,14 @@ namespace ArrayComFor
 
             while (index < 3)
             {
+
                 int numeroAleatorio = random.Next(1, 100);
-                if (numeroAleatorio % 2 == 0)
+                if (!pares.Contains(numeroAleatorio) && numeroAleatorio % 2 == 0)
                 {
                     pares[index] = numeroAleatorio;
                     index++;
                 }
+
             }
             Array.Sort(pares);
             this.arrayInt = pares;

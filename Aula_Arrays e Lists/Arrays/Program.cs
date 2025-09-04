@@ -6,7 +6,7 @@ using ClasseArray;
 //ArrayImparPar arrayPar = new();
 
 //arrayImpar.gerarNumerosImpares();
-//arrayPar.gerarNumerosImpares();
+//arrayPar.gerarNumerosPares();
 
 //arrayPar.converterArray();
 //arrayImpar.converterArray();
@@ -17,12 +17,13 @@ Random random = new Random();
 for (int i = 0; i < listaInt.Length;)
 {
     int numeroAleatorio = random.Next(1, 20);
-    if (!listaInt.Contains(numeroAleatorio)){
+    if (!listaInt.Contains(numeroAleatorio))
+    {
         listaInt[i] = numeroAleatorio;
         i++;
-    }   
+    }
 }
-string[] listaString = new string[10] {"Miguel","Felipe","Micael","Ludimila","Santos","Ricciardo","Ayrton","Senna","Bruno","James"};
+string[] listaString = new string[10] { "Miguel", "Felipe", "Micael", "Ludimila", "Santos", "Ricciardo", "Ayrton", "Senna", "Bruno", "James" };
 
 MenuBinarySearch.iniciar(listaString, listaInt);
 
