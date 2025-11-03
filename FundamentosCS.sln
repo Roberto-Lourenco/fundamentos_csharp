@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SintaxeBasica", "SintaxeBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Aula_Arrays e Lists\Arrays\Arrays.csproj", "{7AC2C087-A274-457C-B584-6DDDD87C9446}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_Delegate", "Aula_Delegate\Aula_Delegate.csproj", "{921FAB14-1061-4D60-BF11-82BBD9FD32C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentosCS.Shared", "FundamentosCS.Shared\FundamentosCS.Shared.csproj", "{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7AC2C087-A274-457C-B584-6DDDD87C9446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AC2C087-A274-457C-B584-6DDDD87C9446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AC2C087-A274-457C-B584-6DDDD87C9446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921FAB14-1061-4D60-BF11-82BBD9FD32C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921FAB14-1061-4D60-BF11-82BBD9FD32C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921FAB14-1061-4D60-BF11-82BBD9FD32C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921FAB14-1061-4D60-BF11-82BBD9FD32C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
