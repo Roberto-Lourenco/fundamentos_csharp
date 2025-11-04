@@ -11,20 +11,17 @@ public class EmailSendingEventHandler
     {
         if (sender == null) return;
         
-        var code = _random.Next(1000, 9999);
-        var sendingArgs = new EmailSendingEventArgs(e.User, code);
         e.User.EmailStatus = EmailStatus.Pending;
+        var code = _random.Next(1000, 9999);
 
         LogHelper.Info(nameof(EmailSendingEventHandler), nameof(OnUserRegistered), new
         {
-            Email = sendingArgs.User.Email,
-            Code = sendingArgs.ConfirmCode,
-            Status = sendingArgs.User.EmailStatus,
-            SendAt = sendingArgs.RequestedAt
+            Email = e.User.Email,
+            Code = code,
+            Status = e.User.EmailStatus,
+            RequestedAt = DateTime.UtcNow
         });
-        EmailSent?.Invoke(this, new EmailSentEventArgs(
-            sendingArgs.User,
-            sendingArgs.ConfirmCode
-            ));
+        EmailSent?.Invoke(this, new EmailSentEventArgs(e.User, code));
+
     }
 }

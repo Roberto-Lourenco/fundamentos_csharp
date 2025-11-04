@@ -105,7 +105,11 @@ internal class App
         }
 
         Console.Write("Código de confirmação: ");
-        int.TryParse(Console.ReadLine(), out int inputCode);
+        if (!int.TryParse(Console.ReadLine(), out int inputCode))
+        {
+            MensagemConsole.warningMsg("Entrada inválida. Código deve ser numérico.");
+            return;
+        }
 
         _emailConfirmationService.ValidateCode(user, inputCode);
 
