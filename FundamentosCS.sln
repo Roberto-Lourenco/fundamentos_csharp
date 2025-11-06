@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlunoExercicio", "Aula_ClassesMetodos\AlunoExercicio\AlunoExercicio.csproj", "{C35FC582-AB50-4BCE-BB68-246CB194B5B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOAlunoExercicio", "POOAlunoExercicio\POOAlunoExercicio.csproj", "{C35FC582-AB50-4BCE-BB68-246CB194B5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentosPorReferencia", "Aula_ClassesMetodos\ArgumentosPorReferencia\ArgumentosPorReferencia.csproj", "{433989CB-C1E2-4157-B47A-F2A7F81463F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOArgumentosPorReferencia", "POOArgumentosPorReferencia\POOArgumentosPorReferencia.csproj", "{433989CB-C1E2-4157-B47A-F2A7F81463F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SobrecargaMetodos", "Aula_ClassesMetodos\SobrecargaMetodos\SobrecargaMetodos.csproj", "{A7BAB66D-764E-40B9-99E3-F2EBBC4E1CB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOSobreCargaMetodos", "POOSobreCargaMetodos\POOSobreCargaMetodos.csproj", "{A7BAB66D-764E-40B9-99E3-F2EBBC4E1CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrutorEstatico", "Aula_ClassesMetodos\ConstrutorEstatico\ConstrutorEstatico.csproj", "{62AB6A5B-35CB-41B9-B7D8-D0B63900B805}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOConstrutorEstatico", "POOConstrutorEstatico\POOConstrutorEstatico.csproj", "{62AB6A5B-35CB-41B9-B7D8-D0B63900B805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propriedades", "Aula_ClassesMetodos\Propriedades\Propriedades.csproj", "{959AA9EE-6911-4341-9E18-76EEED566D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOPropriedades", "POOPropriedades\POOPropriedades.csproj", "{959AA9EE-6911-4341-9E18-76EEED566D82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SintaxeBasica", "SintaxeBasica\SintaxeBasica.csproj", "{7CD5D460-9690-372F-516A-18FBDC14DCD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Aula_Arrays e Lists\Arrays\Arrays.csproj", "{7AC2C087-A274-457C-B584-6DDDD87C9446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysBinarySearch", "ArraysBinarySearch\ArraysBinarySearch.csproj", "{7AC2C087-A274-457C-B584-6DDDD87C9446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_Delegate", "Aula_Delegate\Aula_Delegate.csproj", "{921FAB14-1061-4D60-BF11-82BBD9FD32C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{921FAB14-1061-4D60-BF11-82BBD9FD32C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentosCS.Shared", "FundamentosCS.Shared\FundamentosCS.Shared.csproj", "{32ED665A-3F4A-4DF9-8E04-578EBE41FE95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_EventHandler", "Aula_EventHandler\Aula_EventHandler.csproj", "{B0C3DF67-A72C-479F-B3B3-5FAA72FFC270}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandler", "EventHandler\EventHandler.csproj", "{B0C3DF67-A72C-479F-B3B3-5FAA72FFC270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
